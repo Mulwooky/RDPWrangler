@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>RDPWrangler</RootNamespace>
+    <AssemblyName>RDPWrangler</AssemblyName>
+    <ApplicationIcon>ChatGPT Image Sep 22, 2026, 07_16_40 AM.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Devolutions.MsRdpEx" Version="2026.8.20.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="RDPWrangler.Tests\**" />
+    <None Remove="RDPWrangler.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ChatGPT Image Sep 22, 2026, 07_16_40 AM.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="servers.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

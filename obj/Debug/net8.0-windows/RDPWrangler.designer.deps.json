@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Devolutions.MsRdpEx/2026.8.20.1": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Devolutions.MsRdpEx.dll": {
+            "assemblyVersion": "2026.8.20.1",
+            "fileVersion": "2026.8.20.1"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/MsRdpEx.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "2026.8.20.1"
+          },
+          "runtimes/win-x64/native/MsRdpEx.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2026.8.20.1"
+          },
+          "runtimes/win-x86/native/MsRdpEx.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2026.8.20.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Devolutions.MsRdpEx/2026.8.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tGJsGGcJodiPDhHm6fGMfzwv/c0FzKEUfovLsIvAboy9yhPKStpm5oPYNMXy1c/UmBd+BV+onLdsARdqIY55rA==",
+      "path": "devolutions.msrdpex/2026.8.20.1",
+      "hashPath": "devolutions.msrdpex.2026.8.20.1.nupkg.sha512"
+    }
+  }
+}
